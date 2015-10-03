@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_new_tweet"
+        android:icon="@drawable/ic_action_compose"
+        android:title="@string/compose_tweet"
+        app:showAsAction="ifRoom" />
+    <item android:title="@string/options">
+        <item
+            android:id="@+id/action_reload_tweets"
+            android:title="@string/refresh"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_log_out"
+            android:title="@string/log_out"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_about"
+            android:title="@string/about"
+            app:showAsAction="never" />
+    </item>
+</menu>

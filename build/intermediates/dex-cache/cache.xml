@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b068965b1347f34c1918a6d606358e7b357a1229">
+        <dex dex="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/pre-dexed/release/classes-2fbfb02dfd4b7e02b09a931aef8b696d460d4e7c.jar/classes.dex" />
+    </item>
+    <item
+        jar="/home/umang/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/pre-dexed/release/support-annotations-23.0.0-d037adf7e1398ff00ea60210cc357544452990e6.jar/classes.dex" />
+    </item>
+    <item
+        jar="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
+        <dex dex="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/pre-dexed/release/classes-79895c5f791f7ecafa0ed1f090d2115a7a217b38.jar/classes.dex" />
+    </item>
+    <item
+        jar="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter/1.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6fc144eac80d908c45c4308e9aaa55622cae086f">
+        <dex dex="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/pre-dexed/release/classes-31643a7ac35b86ca396e22bb9724113e4be6634d.jar/classes.dex" />
+    </item>
+    <item
+        jar="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/pre-dexed/release/classes-dc61755a60673974875e40b2eeded4f16d644a70.jar/classes.dex" />
+    </item>
+    <item
+        jar="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1ccbc26be2c465c622a48310e8092241b01abe80">
+        <dex dex="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/pre-dexed/release/classes-31fa4b77d354e1748050b316e23be135584ef6ba.jar/classes.dex" />
+    </item>
+    <item
+        jar="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/pre-dexed/release/classes-93a5fc3ae7d7bb049c567b1bcff29a9204af8cf2.jar/classes.dex" />
+    </item>
+    <item
+        jar="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="074b93197194a0225023845f90cceba9518be74c">
+        <dex dex="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/pre-dexed/release/classes-ed4ba6798946127d8de16016c72b68b9031abf12.jar/classes.dex" />
+    </item>
+    <item
+        jar="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-composer/0.9.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="de76a31d4a478cd8fcd7e30ec63261c18ba4f5a5">
+        <dex dex="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/pre-dexed/release/classes-6c9a8764b34c05041a0a21f4652cf6846db16f54.jar/classes.dex" />
+    </item>
+    <item
+        jar="/home/umang/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/pre-dexed/release/gson-2.3-4c46a2f40af73ff1391b06bf2933378c6f8fb937.jar/classes.dex" />
+    </item>
+    <item
+        jar="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3c598243d9616e3c6132e054d43f50ff8f8dee63">
+        <dex dex="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/pre-dexed/release/classes-5f6f14f093269e4505a9d33753f9e2533b95773e.jar/classes.dex" />
+    </item>
+    <item
+        jar="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/pre-dexed/release/internal_impl-23.0.0-bd63fb185761367d927e52453013638144dadd06.jar/classes.dex" />
+    </item>
+    <item
+        jar="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.5/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6e65060ef2ec6ec98365250d2119d7968626fd3f">
+        <dex dex="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/pre-dexed/release/classes-0968e2d6dd1bb8e2e83932d322eb695ebbfa3aaa.jar/classes.dex" />
+    </item>
+    <item
+        jar="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/exploded-aar/fr.baloomba/viewpagerindicator/2.4.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1c0f42853ca7567a621142dc9b533b6428b37d73">
+        <dex dex="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/pre-dexed/release/classes-813f2d9143383a75ddb98aee791b59268a09fd9e.jar/classes.dex" />
+    </item>
+    <item
+        jar="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="40e7757d9b06db670062ddb3cf5b30c129b2fd8c">
+        <dex dex="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/pre-dexed/release/classes-49051442e63e09d8cfe12e81505d0d3b69d57a88.jar/classes.dex" />
+    </item>
+    <item
+        jar="/home/umang/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/pre-dexed/release/picasso-2.5.2-b74f175f10e151f2720c1e2079d41caa8e20cad8.jar/classes.dex" />
+    </item>
+    <item
+        jar="/home/umang/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.8.0/a517f29ed06be2b2879524fcd94b6e9b36e2e0b5/retrofit-1.8.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a517f29ed06be2b2879524fcd94b6e9b36e2e0b5">
+        <dex dex="/home/umang/Desktop/MyNewTwitterClone/app/build/intermediates/pre-dexed/release/retrofit-1.8.0-6fe09fde747f8c214082c9122ef4c366e0332da4.jar/classes.dex" />
+    </item>
+
+</items>

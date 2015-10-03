@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light">
+    </style>
+
+    <style name="BlueButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:background">@color/twitterBlue</item>
+        <item name="android:textColor">@color/tw__solid_white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="customDialogStyle" parent="Base.Theme.AppCompat.Light.Dialog">
+        <item name="android:windowAnimationStyle">@style/customDialogAnimation</item>
+    </style>
+
+    <style name="customDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/translate_left_side</item>
+        <item name="android:windowExitAnimation">@anim/translate_right_side</item>
+    </style>
+
+</resources>

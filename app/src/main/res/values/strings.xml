@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MyNewTwitterClone</string>
+    <string name="login_intro_text_1">The most powerful Twitter tool for real-time tracking, organizing, and engagement</string>
+    <string name="login_intro_text_2">The #1 third-party mobile Twitter app, with millions of users</string>
+    <string name="login_intro_text_3">the easy way to post more than 140 characters to Twitter</string>
+    <string name="compose_tweet">Compose Tweet</string>
+    <string name="options">Options</string>
+    <string name="log_out">Log Out</string>
+    <string name="about">About</string>
+    <string name="tweet">Tweet</string>
+    <string name="chars_left">characters left</string>
+    <string name="status_updated">Your Twitter status has been updated</string>
+    <string name="status_update_failed">Failed to update status</string>
+    <string name="compulsory_field">This is a compulsory field</string>
+    <string name="refresh">Refresh</string>
+    <string name="fetching_tweets">Fetching Tweets</string>
+    <string name="about_toast">This is a twitter clone !!</string>
+    <string name="exit_title">Exit My New Twitter Clone ?</string>
+    <string name="are_you_sure">Are you sure you want to exit ?</string>
+</resources>
