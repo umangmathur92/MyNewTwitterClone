@@ -1,6 +1,7 @@
 package com.umangmathur.mynewtwitterclone;
 
 import android.app.Dialog;
+import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -39,6 +40,7 @@ public class LandingPageActivity extends CustomBaseActivity {
     private TweetsAdapter tweetsAdapter;
     private List<Tweet> tweetList = new ArrayList<>();
     private StatusesService statusesService;
+    private ProgressDialog progressDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,12 +50,20 @@ public class LandingPageActivity extends CustomBaseActivity {
         tweetsAdapter = new TweetsAdapter(tweetList);
         tweetRecyclerView.setAdapter(tweetsAdapter);
         statusesService = Twitter.getApiClient().getStatusesService();
-        showToast("Fetching Tweets");
         fetchAndDisplayTweets();
     }
 
     private void fetchAndDisplayTweets() {
-        statusesService.homeTimeline(NUM_OF_TWEETS, null, null, null, null, null, null, getHomeTimeLineCallback());
+        if (Utils.isNetworkAvailable(this)) {
+            progressDialog = new ProgressDialog(this);
+            progressDialog.setMessage("Fetching Tweets");
+            progressDialog.setCanceledOnTouchOutside(false);
+            progressDialog.setCancelable(false);
+            progressDialog.show();
+            statusesService.homeTimeline(NUM_OF_TWEETS, null, null, null, null, null, null, getHomeTimeLineCallback());
+        } else {
+            showToast(getString(R.string.check_internet_connection));
+        }
     }
 
     private Callback<List<Tweet>> getHomeTimeLineCallback() {
@@ -63,11 +73,14 @@ public class LandingPageActivity extends CustomBaseActivity {
                 tweetList.clear();
                 tweetList.addAll(result.data);
                 tweetsAdapter.notifyDataSetChanged();
+                progressDialog.dismiss();
             }
 
             @Override
             public void failure(TwitterException e) {
-                showToast("failure to fetch tweets" + e.getMessage());
+                progressDialog.dismiss();
+                showToast(getString(R.string.failed_to_fetch_tweets));
+                Log.e(MY_NEW_TWITTER_CLONE, getString(R.string.failed_to_fetch_tweets) + " : " + e.getMessage());
             }
         };
     }
@@ -92,7 +105,6 @@ public class LandingPageActivity extends CustomBaseActivity {
                 showComposeTweetDialog();
                 return true;
             case R.id.action_reload_tweets:
-                showToast("Reloading...");
                 fetchAndDisplayTweets();
                 return true;
             case R.id.action_log_out:
@@ -154,11 +166,15 @@ public class LandingPageActivity extends CustomBaseActivity {
         return new OnClickListener() {
             @Override
             public void onClick(View v) {
-                String strStatus = etStatus.getText().toString();
-                if (strStatus.length() > 0) {
-                    statusesService.update(strStatus, null, null, null, null, null, null, null, null, getStatusUpdateCallback(composeTweetDialog));
+                if (Utils.isNetworkAvailable(LandingPageActivity.this)) {
+                    String strStatus = etStatus.getText().toString();
+                    if (strStatus.length() > 0) {
+                        statusesService.update(strStatus, null, null, null, null, null, null, null, null, getStatusUpdateCallback(composeTweetDialog));
+                    } else {
+                        etStatus.setError(getString(R.string.compulsory_field));
+                    }
                 } else {
-                    etStatus.setError(getString(R.string.compulsory_field));
+                    showToast(getString(R.string.check_internet_connection));
                 }
             }
         };
@@ -190,7 +206,8 @@ public class LandingPageActivity extends CustomBaseActivity {
                     public void onClick(DialogInterface dialog, int whichButton) {
                         dialog.dismiss();
                         LandingPageActivity.super.onBackPressed();
-                    }})
+                    }
+                })
                 .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {

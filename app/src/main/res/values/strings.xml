@@ -17,4 +17,6 @@
     <string name="about_toast">This is a twitter clone !!</string>
     <string name="exit_title">Exit My New Twitter Clone ?</string>
     <string name="are_you_sure">Are you sure you want to exit ?</string>
+    <string name="check_internet_connection">Please check your internet connection</string>
+    <string name="failed_to_fetch_tweets">Failed to fetch tweets</string>
 </resources>

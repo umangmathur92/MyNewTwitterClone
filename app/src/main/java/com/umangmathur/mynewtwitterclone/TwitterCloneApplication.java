@@ -16,6 +16,5 @@ public class TwitterCloneApplication extends Application implements AppConstants
         super.onCreate();
         TwitterAuthConfig authConfig = new TwitterAuthConfig(TWITTER_KEY, TWITTER_SECRET);
         Fabric.with(this, new Twitter(authConfig));
-
     }
 }
